@@ -6,9 +6,9 @@
   "password": "123qwe",
   "database": "bodoc",
   "synchronize": true,
-  "entities": ["src/entity/*.js"],
-  "subscribers": ["src/subscriber/*.js"],
-  "migrations": ["src/migration/*.js"],
+  "entities": ["dist/entity/**/*.js"],
+  "subscribers": ["dist/subscriber/**/*.js"],
+  "migrations": ["dist/migration/**/*.js"],
   "cli": {
     "entitiesDir": "src/entity",
     "migrationsDir": "src/migration",
