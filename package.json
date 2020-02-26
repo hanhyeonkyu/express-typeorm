@@ -1,5 +1,5 @@
 {
-  "name": "typeorm-typescript-express-example",
+  "name": "express-typeorm",
   "version": "0.0.1",
   "description": "Example how to use Express and TypeORM with TypeScript.",
   "license": "MIT",
