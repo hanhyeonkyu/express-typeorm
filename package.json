@@ -9,7 +9,7 @@
     "email": "busgod1212@gmail.com"
   },
   "scripts": {
-    "start": "rm -rf dist && tsc && node dist/index.js"
+    "start": "rm -rf dist && tsc && nodemon dist/index.js"
   },
   "devDependencies": {
     "@types/body-parser": "^1.16.8",
@@ -21,6 +21,7 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "mysql": "^2.15.0",
+    "nodemon": "^2.0.2",
     "typeorm": "^0.2.22"
   },
   "repository": {
