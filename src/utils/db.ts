@@ -7,7 +7,7 @@ export const dataSource = new DataSource({
   username: "postgres",
   password: "root",
   database: "express_typeorm",
-  entities: [__dirname + "/../../**/*.entity{.ts,.js}"],
+  entities: [__dirname + "/../**/entity/*{.ts,.js}"],
   logging: true,
   synchronize: true,
 });
